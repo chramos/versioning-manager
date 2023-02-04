@@ -1,0 +1,40 @@
+{
+  "name": "versioning-manager",
+  "version": "1.0.4",
+  "description": "Versioning manager is a helper to increment version on iOS and Android in Flutter or ReactNative projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "bin": {
+    "vm": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chramos/versioning-manager.git"
+  },
+  "keywords": [
+    "react-native",
+    "flutter",
+    "increment-version",
+    "version"
+  ],
+  "author": "chramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chramos/versioning-manager/issues"
+  },
+  "homepage": "https://github.com/chramos/versioning-manager#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "fs": "^0.0.1-security",
+    "glob": "^8.1.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
