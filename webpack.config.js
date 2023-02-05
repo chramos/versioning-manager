@@ -1,18 +1,24 @@
+const webpack = require("webpack");
 const path = require("path");
+const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
-  mode: "production",
   entry: "./src/index.js",
   output: {
-    path: path.resolve("dist"),
     filename: "index.js",
-    libraryTarget: "commonjs2",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
   },
+  // devtool: "source-map",
+  externals: [nodeExternals()],
+  plugins: [
+    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true }),
+  ],
   resolve: {
-    extensions: [".js"],
+    extensions: [".js", ".jsx", ".ts", ".tsx"],
     fallback: {
       fs: false,
-      assert: false,
+      url: false,
     },
   },
 };
