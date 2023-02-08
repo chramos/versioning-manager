@@ -1,6 +1,6 @@
 {
   "name": "versioning-manager",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Versioning manager is a helper to increment version on iOS and Android in Flutter or ReactNative projects",
   "main": "bin/index.js",
   "scripts": {
