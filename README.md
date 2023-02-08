@@ -1,6 +1,6 @@
 ## Versioning Manager CLI
 
-Versioning manager is a CLI that simply increment the version for android and iOS
+Versioning manager is a CLI that simply increment the version for android and iOS in Flutter or ReactNative projects
 
 ### Installation
 
@@ -15,6 +15,25 @@ sudo npm i -g versioning-manager
 ```bash
 vm increment-version
 ```
+
+the command above will result in this:
+
+```bash
+-------------------------------------------------------
+---- Successfully incremented the patch version 🎉 ----
+-------------------------------------------------------
+
+Android: 1.0.1(2)
+iOS: 1.0.2(2)
+```
+
+### Multi targets
+
+You must be asking yourself:
+What if I have multiple targets on iOS?
+
+This is the answer:
+This package will handle all targets for you. It means that, the command will apply the change for all targets
 
 ### Params
 
