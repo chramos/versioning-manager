@@ -33,7 +33,7 @@ You must be asking yourself:
 What if I have multiple targets on iOS?
 
 This is the answer:
-This package will handle all targets for you. It means that, the command will apply the change for all targets
+This package will handle all targets for you. It means that, the command will apply the change for all of them
 
 ### Params
 
