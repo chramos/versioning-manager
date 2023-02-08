@@ -37,10 +37,10 @@ This package will handle all targets for you. It means that, the command will ap
 
 ### Params
 
-| param |        description         |         type          | default |
-| :---: | :------------------------: | :-------------------: | :-----: |
-|  -t   | specify the increment type | (major\|minor\|patch) |  patch  |
-|  -p   |    specify the platform    | (android\/ios\/both)  |  both   |
+| param |         description          |         type          | default |
+| :---: | :--------------------------: | :-------------------: | :-----: |
+|  -t   | specifies the increment type | (major\|minor\|patch) |  patch  |
+|  -p   |    specifies the platform    | (android\/ios\/both)  |  both   |
 
 ### License
 
