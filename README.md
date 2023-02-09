@@ -24,7 +24,7 @@ the command above will result in this:
 -------------------------------------------------------
 
 Android: 1.0.1(2)
-iOS: 1.0.2(2)
+iOS: 1.0.1(2)
 ```
 
 ### Multi targets
